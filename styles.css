@@ -7,7 +7,9 @@ body {
     font-size:15px;
     font-family:sans-serif;
     text-decoration:none;
-    margin-left:85%;
+    margin-left:80%;
+    display:flex;
+    gap:15px;
 }
 #searchbar{
     margin:auto;
@@ -19,6 +21,7 @@ body {
     color: white;
     font-size:14px;
     border-color:#bdc1c6;
+    padding-left:50px;
    
   
 }
@@ -98,5 +101,46 @@ img{
 }
 #search:hover{
     border:1px solid #5f6368;
+}
+#input-search{
+    position:absolute; 
+    bottom: 37vh;
+    left:39vw; 
+    width:10px; 
+    height:10px;
+}
+
+@media (max-width:412px ) {
+    .google{
+        height:100px;
+        width:92px;
+        margin-left:10vw;
+        padding-top:15vh;
     
+    }
+    #searchbar{
+        margin-left:-17vw;
+        margin-top:7vh;
+        width:60vw;
+        height:5vh;
+        left:30vw;
+    }
+    #searchformbut{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        margin-left:-27vw;
+        margin-top:4vh;
+        column-gap: 30px;
+    }
+    #input-search{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        bottom: 62.7vh;
+        left:25vw; 
+        width:10px; 
+        height:10px;
+    }
+   #alternative{
+    margin-left:60%;
+   }
 }
