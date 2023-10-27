@@ -111,6 +111,7 @@ img{
 }
 
 @media (max-width:412px ) {
+
     .google{
         height:100px;
         width:92px;
@@ -140,7 +141,5 @@ img{
         width:10px; 
         height:10px;
     }
-   #alternative{
-    margin-left:60%;
-   }
+    
 }
