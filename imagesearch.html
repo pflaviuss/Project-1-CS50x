@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Search</title>
 </head>
 <body>
     <div id="alternative">
-        <a href="advanced.html">Advanced Search</a>
-        <a href="index.html">Back to google</a>
+        <a id="Advanced" href="advanced.html">Advanced Search</a>
+        <a href="index.html">Back to Google</a>
     </div>
-    <div>
-        <img src="C:\Users\Flavius\Code\Project-1-CS50x\images\pngwing.com.png" alt="google">
-    </div>
+    
     <div id="searchform">
-        <form  id ="form" action="https://www.google.com/search">
-            <div id="searchformbar">
-            <input id="searchbar" type="text" name="q">
-            </div>
-            
-            <div id="searchformbut">
-            <button><input id="button" type="submit" value="Google Search"></button>
-            </div>
-            
-        </form>
+    <form id ="form" method="get" action="http://images.google.com/images">
+        <div class="google">
+            <img src="images\google dark.png" alt="google">
         </div>
+        <div id="searching">
+            
+        <div id="searchformbar">
+            
+        <input id="searchbar" type="text" name="q">
+        <i id="input-search"class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </div>
+        <div id="searchformbut">
+        <!-- <input id="search" type="submit" value="Google Search"> -->
+        <style>#input-search{
+            margin-bottom: 0.6%;
+
+        }</style>
+        <!-- <input id="search" type="submit" value="I'm feeling lucky"> -->
+        </div>
+        </div>
+        
+    </form>
+    </div>
+    <script src="https://kit.fontawesome.com/2ee32fbaa3.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
