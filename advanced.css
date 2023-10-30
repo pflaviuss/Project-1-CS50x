@@ -1,0 +1,43 @@
+#alternative{
+    display:flex;
+    margin-left:85%;
+    gap:20px;
+}
+#google{
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+    margin-left:10px;
+}
+#title{
+    font-family:arial, sans-serif;
+    color: #d93025;
+    font-size:20px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    margin-left:20px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    
+    text-decoration: none;
+}
+#title2{
+    font-family:arial, sans-serif;
+    color: black;
+    font-size:20px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    margin-left:20px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    text-decoration: none;
+}
+table{
+    height:30px;
+    margin-left:20px;
+}
