@@ -41,3 +41,35 @@ table{
     height:30px;
     margin-left:20px;
 }
+#search{
+    margin-left: 16%;;
+    height:27px;
+    background-color:#4d90fe;
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    color: #fff;
+    border: 1px solid #3079ed;
+    border-radius:2px;
+    margin-top:15px;
+}
+#search:hover{
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+
+}
+#txtinput{
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width:100%;
+}
+#question{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
