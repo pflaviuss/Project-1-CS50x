@@ -9,6 +9,12 @@
     width: 74px;
     margin-left:10px;
 }
+.row-input{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-top:20px;
+}
 #title{
     font-family:arial, sans-serif;
     color: #d93025;
@@ -37,12 +43,12 @@
     font-size: 100%;
     text-decoration: none;
 }
-table{
+form{
     height:30px;
     margin-left:20px;
 }
 #search{
-    margin-left: 16%;;
+    margin-left: 18%;;
     height:27px;
     background-color:#4d90fe;
     background-image: linear-gradient(top,#4d90fe,#4787ed);
@@ -57,7 +63,7 @@ table{
     background-image: linear-gradient(top,#4d90fe,#357ae8);
 
 }
-#txtinput{
+.right{
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -68,8 +74,9 @@ table{
     padding: 1px 8px;
     width:100%;
 }
-#question{
+.left{
     height: 30px;
+    width:200px;
     display: table-cell;
     vertical-align: middle;
 }

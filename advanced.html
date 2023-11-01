@@ -19,25 +19,26 @@
     <h3 id="title">Advanced Search</h3>
     <hr>
     <h3 id="title2">Find pages with...</h3>
-    <table>
-        <tr >
-            <td id="question">all these words: </td>
-            <td><input id="txtinput" type="text"></td>
-        </tr>
-        <tr >
-            <td id="question">this exact word or phrase: </td>
-            <td><input id="txtinput" type="text"></td>
-        </tr>
-        <tr >
-            <td id="question">any of these words: </td>
-            <td><input id="txtinput" type="text"></td>
-        </tr>
-        <tr >
-            <td id="question">none of these words: </td>
-            <td><input id="txtinput" type="text"></td>
-        </tr>
-    </table>
-    <input id="search" type="submit" value="Advanced Search">
+    <form action="https://www.google.com/search">
+        <div class="row-input">
+            <div class="left">all these words: </div>
+            <div><input class="right" type="text" name="as_q"></div>
+        </div>
+        <div class="row-input">
+            <div class="left">this exact word or phrase: </div>
+            <div><input class="right" type="text" name="as_epq"></div>
+        </div>
+        <div class="row-input">
+            <div class="left">any of these words: </div>
+            <div><input class="right" type="text" name="as_oq"></div>
+        </div>
+        <div class="row-input">
+            <div class="left">none of these words: </div>
+            <div><input class="right" type="text" name="as_eq"></div>
+        </div>
+        <input id="search" type="submit" value="Advanced Search" >
+    </form>
+    
 
 </body>
 </html>
